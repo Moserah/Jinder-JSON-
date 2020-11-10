@@ -15,13 +15,6 @@
 <body>
     <header>
         <a href="#" class="logo">JINDER{JSON}</a>
-        <div class="menu-toggle"></div>
-        <nav>
-            <ul>
-                <li><a href="#" class="active">Home</a></li>
-                <li><a href="#">About</a></li>
-            </ul>
-        </nav>
         <div class="clearfix"></div>
     </header>
     <main>
@@ -33,18 +26,13 @@
                     </div>
                 </div>
             </div>
-            <button>GET IT HERE</button>
+            <button><a href="https://jinder-json.netlify.app/">GET IT HERE</a></button>
         </div>
     </main>
-    <script>
-        let toggle = document.querySelector(".menu-toggle");
-        let nav = document.querySelector("nav");
-        toggle.addEventListener("click",()=>{
-            toggle.classList.toggle("active");
-            nav.classList.toggle("active");
-        })
-
-    </script>
+    <footer class="d-flex justify-content-center align-items-center">
+        <h3>MADE BY UTITOFON</h3>
+    </footer>
+    <script src="app.js"></script>
 </body>
 
 </html>
